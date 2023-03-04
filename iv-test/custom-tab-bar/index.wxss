@@ -1,0 +1,93 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  display: flex;
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 99;
+  padding-top: 17rpx;
+  background-image: url('https://ns51.eaia.cn/group1/M00/01/E4/wKgKymLgpdWARzR-AAANbZWJ5GM302.png');
+  background-size: 100vw;
+}
+  
+.tab-bar-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tab-bar-item cover-image {
+  width: 27px;
+  height: 27px;
+}
+  
+.tab-bar-item .cover-text {
+  font-size: 10px;
+}
+.txt{
+  color: #aaaaaa;
+}
+.fontWeight{
+  font-weight: bold;
+}
+.bg_rec{
+  background: #ffd324;
+  width: 80rpx;
+  min-height: auto;
+  height: 20rpx;
+  margin-top: -28rpx;
+  vertical-align: text-bottom;
+  border-radius: 0;
+  z-index: -10;
+}
+.center_img{
+  width: 100rpx;
+  height: 100rpx;
+  transform: translate(-50%);
+  left: 50%;
+  bottom:0;
+}
+.center-has-noimg{
+  width: 100%;
+  height: 100%;
+}
+.center-has-image{
+  width: 38rpx;
+  height: 38rpx; 
+}
+.center_part_code{
+  padding: 10rpx;
+  box-shadow: 0 0 0 #000;
+  /* width: 100rpx;
+  height: 100rpx; */
+  position: absolute;
+  top: -26px;
+  z-index: 10;
+  width: 120rpx;
+  height: 120rpx;
+  transform: translate(-50%);
+  left: 50%;
+}
+.tab-bar-item:nth-child(3)>.cover-text{
+  position: absolute;
+  bottom: 4rpx;
+}
+.number{
+	position: absolute;
+	font-size: 24rpx;
+	min-width: 40rpx;
+	min-height: 40rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	padding: 4rpx;
+	line-height: 24rpx;
+	background-color: #fd6334;
+	border-radius: 50%;
+	transform: translate(26rpx,-40rpx);
+}
